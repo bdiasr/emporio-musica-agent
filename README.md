@@ -5,18 +5,6 @@ Protótipo de agente de mensagens de texto que atende clientes da Empório da M�
 
 ## Como rodar
 
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate   |   Linux/macOS: source .venv/bin/activate
-pip install -r requirements.txt
-pip install -e .
-cp .env.example .env        # preencha a chave do provedor
-python scripts/indexar_politicas.py
-python -m emporio.cli
-```
-
-Testes: `pytest`
-
 ## Arquitetura
 
 ## Decisões técnicas
